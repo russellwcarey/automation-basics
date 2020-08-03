@@ -14,13 +14,4 @@ module.exports = {
       .setValue('@searchBar', ['Kittens', browser.Keys.ENTER])
       .verify.containsText('@results', 'Kittens')
   }
-  /*
-  'Other possible test for cancel button': browser => {
-    employeeManager.navigate()
-      .click('@employee2')
-      .clearValue('@nameField')
-      .setValue('@nameField', 'Sonic')
-      .click('@cancelButton')
-  }
-  */
 }

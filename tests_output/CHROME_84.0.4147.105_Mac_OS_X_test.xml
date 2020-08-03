@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="2" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.002000" timestamp="">
+  
+    <testcase name="Your test here" classname="test" time="0.002000" assertions="0">
+    <error message="browser.page.googlePage is not a function" type="error"><![CDATA[
+    TypeError: google.end is not a function
+    at Object.after (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/test.js:10:8)
+    at Context.callAsync (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/context.js:395:20)
+    at Context.invokeMethod (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/context.js:346:21)
+    at /Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:75:24
+    at new Promise (&lt;anonymous&gt;)
+    at AfterAll.run (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:50:14)
+    at Runnable.__runFn (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/index.js:186:35)
+    at Runnable.run (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/index.js:443:33)
+    at TestSuite.handleRunnable (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/node_modules/nightwatch/lib/testsuite/index.js:448:18)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: browser.page.googlePage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.beforeEach (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/test.js:4:27)
+       at new Promise (&lt;anonymous&gt;)
+  TypeError: google.end is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.after (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/test.js:10:8)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -5,15 +5,27 @@
 
   <testsuite name="firstTest"
     errors="0" failures="1" hostname="" id="" package="firstTest" skipped="0"
-    tests="1" time="6.008" timestamp="">
+    tests="1" time="5.901" timestamp="">
   
-    <testcase name="My first test case" classname="firstTest" time="6.008" assertions="1">  <failure message="Timed out while waiting for element &lt;.evenOddInput&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5121ms)">    at Object.My first test case (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/firstTest.js:5:8)
+    <testcase name="My first test case" classname="firstTest" time="5.901" assertions="1">  <failure message="Timed out while waiting for element &lt;.evenOddInput&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5121ms)">    at Object.My first test case (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/firstTest.js:5:8)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
 
     
     </testcase>
   
 
+  
+    <system-err>
+        TypeError: browser.page.googlePage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.beforeEach (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/test.js:4:27)
+       at new Promise (&lt;anonymous&gt;)
+  TypeError: google.end is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.after (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/test.js:10:8)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
   
 
     
