@@ -1,8 +1,8 @@
 module.exports = {
   'My first test case'(browser) {
     browser
-      .url('https://news.ycombinator.com')
-      .waitForElementVisible('.hnname')
-      .assert.containsText(".hnname", "Hacker News");
+      .url('https://devmountain-qa.github.io/Automation-Basics/build/')
+      .waitForElementVisible('.evenOddInput')
+      .assert.containsText(".evenOddInput", Number);
   }
 }

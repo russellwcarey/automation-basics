@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="firstTest"
-    errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
-    tests="1" time="0.9440" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="firstTest" skipped="0"
+    tests="1" time="6.008" timestamp="">
   
-    <testcase name="My first test case" classname="firstTest" time="0.9440" assertions="2">
-
-    
+    <testcase name="My first test case" classname="firstTest" time="6.008" assertions="1">  <failure message="Timed out while waiting for element &lt;.evenOddInput&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5121ms)">    at Object.My first test case (/Users/russellcarey/Projects/DevMountain/Practice/automation-basics/tests/firstTest.js:5:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
 
     
     </testcase>
