@@ -1,3 +1,4 @@
+/*
 var google = {}
 module.exports = {
   beforeEach: browser => {
@@ -15,3 +16,4 @@ module.exports = {
       .verify.containsText('@results', 'Kittens')
   }
 }
+*/
