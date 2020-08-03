@@ -1,0 +1,54 @@
+Checkpoint 2 Project - Rubric
+Submit Assignment
+•	Due Monday by 2pm
+ 
+•	Points 10
+ 
+•	Submitting a website url
+Instructions.
+You will be creating automation for a simple one page application from scratch.
+•	The application can be found here
+ (Links to an external site.).
+•	The requirements for your automation project and the application can both be found here
+ (Links to an external site.).
+•	You will need to document your test efforts as well as automate your testing.
+•	See the rubric for additional details - 8/10 points are required to pass, and the checkpoint can be re-taken if necessary.
+Don't forget to submit the URL for your GitHub repository.
+Rubric
+Checkpoint 2 Project Rubric
+Criteria	Ratings	Pts
+This criterion is linked to a Learning OutcomeModules Automated
+Each of the five modules in this app (Odds and Evens, etc) need to be sufficiently tested/automated.	5.0 pts
+Full Marks	4.0 pts
+4/5 Automated Successfully	3.0 pts
+3/5 Automated Successfully	2.0 pts
+2/5 Automated Successfully	1.0 pts
+1/5 Automated Successfully	0.0 pts
+No Marks
+	5.0 pts
+This criterion is linked to a Learning OutcomePage Object Includeed
+A page object should be present in your automation.	2.0 pts
+Full Marks
+The page object is present with all selectors included.	1.0 pts
+Some Missing
+The page object is present, but not all selectors are included.	0.0 pts
+No Marks
+The page object is missing or non-functional.
+	2.0 pts
+This criterion is linked to a Learning OutcomeGitHub
+Automation is saved in a GitHub repository.
+(You *can* ask for help with this piece)	1.0 pts
+Full Marks	0.0 pts
+No Marks
+	1.0 pts
+This criterion is linked to a Learning OutcomeTest Documentation
+Your test plan / test cases should be present. Either linked from a comment or included as a text file in your automation.	2.0 pts
+Full Marks
+Sufficient documentation is present.	1.0 pts
+Insufficient Documentation
+Test documentation submitted does not adequately explain the testing, or is missing important pieces.	0.0 pts
+No Marks
+No test documentation was submitted.
+	2.0 pts
+Total Points: 10.0	 	 
+Checkpoint 2 Project Rubric
